@@ -4,7 +4,28 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"one/integer.sol": "local"
+			"one/overflow.sol": "local"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"one/integer.sol": {
-			"keccak256": "0xedaf8623baaca807b30839dd8d680150bf2f3ff7c80603127649b958eb0f10bb",
+		"one/overflow.sol": {
+			"keccak256": "0x2576a3bd565f56a30ab47f00eb54dea2d809b972d5b51ce0907d767aea0c5c2e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://99a684fadc13e728daf983d49ecf94e6efdff8bc66a6cddf5f75cd113fb80aaa",
-				"dweb:/ipfs/QmPFmNvAMenvtV94Qv92R5hLa9nQtpGG6E6Dn1L7YGyoJQ"
+				"bzz-raw://46f5d2e4f44c3534713452a506826f38628fb747954b31c3d158d56cbf4b35dc",
+				"dweb:/ipfs/QmVUVP31mYmwbnredtLe5k9xA6ev9bkV7zrQG4PNjUKEeW"
 			]
 		}
 	},
