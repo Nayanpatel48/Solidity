@@ -4,32 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newCount",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -43,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"one/constructor.sol": "local"
+			"one/integer.sol": "local"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"one/constructor.sol": {
-			"keccak256": "0xf43725fa8179bed74620f1eb680d855f95061275b9af57e115e46bd184966fd8",
+		"one/integer.sol": {
+			"keccak256": "0xedaf8623baaca807b30839dd8d680150bf2f3ff7c80603127649b958eb0f10bb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3520c74c0da8c67a4220ed0d8e8b8b16e88dd858268dba03aee4f997c89553b4",
-				"dweb:/ipfs/QmQuLH3DoEB9JKmJhbqC2tadZoxYC9sK7JGMkqRcjS4sQ9"
+				"bzz-raw://99a684fadc13e728daf983d49ecf94e6efdff8bc66a6cddf5f75cd113fb80aaa",
+				"dweb:/ipfs/QmPFmNvAMenvtV94Qv92R5hLa9nQtpGG6E6Dn1L7YGyoJQ"
 			]
 		}
 	},
