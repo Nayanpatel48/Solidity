@@ -2,6 +2,8 @@
 
 pragma solidity >= 0.5.0 < 0.9.0;
 
+//////////////////////functions////////////////////////////
+
 contract local{
 
     // when we create public static variable we don't need to use the getter method 
