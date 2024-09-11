@@ -6,8 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "age",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "j",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "addToX",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +50,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,13 +59,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"one/stateVariable.sol": "State"
+			"one/view_pure.sol": "ViewAndPure"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"one/stateVariable.sol": {
-			"keccak256": "0x4deda52649602f727be33839a25405038e23ee7533d974c3bf64ea438efbbe13",
+		"one/view_pure.sol": {
+			"keccak256": "0x32d4ddbc0232a3d23d6ecc0e643d10e57413d2d272c362d35c64cfe0e29f0f5f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a52eb8f0b8f4fa19bd4485f5df7b4c6a7f8be528decd53fd5899a1025d120d86",
-				"dweb:/ipfs/QmPyN2J2BdngL7n4zf9kDX7WJ1kErDsstAzhRq36k7LJDF"
+				"bzz-raw://76ba92de378d175947cc3f93c623d000d86bb91ce2b55a46d285b682a890f6be",
+				"dweb:/ipfs/QmNxC79LULVU6ugibUYYFG93GEZPTVbRmNq8dyr2J9mDeJ"
 			]
 		}
 	},

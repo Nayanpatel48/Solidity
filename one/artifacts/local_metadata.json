@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"one/localVariable.sol": {
-			"keccak256": "0x2e757101e4dc989d316fdc1166ed6fe7be1d2b1d1715c915502b5df030d66c07",
+			"keccak256": "0xfb1962e2d6290b23af8ea2c54d9f58215aec6edf2c30abdc7b0df45716ba3347",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4a6822cc7cb64865ae399c5e5d34c07de8b18bf2ccb43f48a0f7c2436fac639a",
-				"dweb:/ipfs/Qmaz9GoqeZJarVxTEbsyiNV7QLFyALPUy83UNgLNUKB2kr"
+				"bzz-raw://c800e2cdca1a91ebc67fb6b1a738ddab5eb0e426a232601c714e61736181b117",
+				"dweb:/ipfs/QmVa5Va1GXPNbBssm3RBc63PcUYekfkULd478s3NcMLAQJ"
 			]
 		}
 	},
