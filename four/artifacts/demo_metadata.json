@@ -13,12 +13,17 @@
 						"type": "uint256"
 					}
 				],
-				"name": "rollNumber",
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -28,13 +33,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "keys",
+						"name": "roll_number",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "value",
+						"name": "name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
 					}
 				],
 				"name": "setter",
@@ -56,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"four/mappingA.sol": "demo"
+			"four/mappingB.sol": "demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -70,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"four/mappingA.sol": {
-			"keccak256": "0x9f5d5ff8577b3a1f1129e8b8349a0ad6c3822a037152e1623da9484b82836a21",
+		"four/mappingB.sol": {
+			"keccak256": "0xa9fc3b29c0df0dc74a8fc8d4500819512723229cddc68f30f3b72fb5b941e198",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://06debe4007f2eba8c58a7c792f733c609072c44f68fd69c0b6e3ca0e49fcaf24",
-				"dweb:/ipfs/QmNUD7yNw5pARNY4s8GMmKxVUUGSQSb9g6JwUyVBkhjcSq"
+				"bzz-raw://e2351385a62b5d9bf2524fab7c625be0dc8d06973f7c026190c00807dd6c7120",
+				"dweb:/ipfs/QmSAjGCJN8Ybfa6bSUJ5957EEiAHHayJpreRW9trKQe1yT"
 			]
 		}
 	},
