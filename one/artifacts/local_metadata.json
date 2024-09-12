@@ -7,20 +7,26 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "money",
+				"name": "getAge",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setter",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newAge",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"one/overflow.sol": "local"
+			"one/function.sol": "local"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"one/overflow.sol": {
-			"keccak256": "0x2576a3bd565f56a30ab47f00eb54dea2d809b972d5b51ce0907d767aea0c5c2e",
+		"one/function.sol": {
+			"keccak256": "0xc6cc5879fd0cae0284d428e7c341b8eb5ce8d10ea4a12b05be96d84114808b43",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://46f5d2e4f44c3534713452a506826f38628fb747954b31c3d158d56cbf4b35dc",
-				"dweb:/ipfs/QmVUVP31mYmwbnredtLe5k9xA6ev9bkV7zrQG4PNjUKEeW"
+				"bzz-raw://52fe83883a03db46e8d40e8be04f7286ee101fcf36376c8fab31ead892519653",
+				"dweb:/ipfs/Qma4jnkExWAeQS1GWe5vDRmxqSkada7kmnZ3Sq9HvZyB8d"
 			]
 		}
 	},
