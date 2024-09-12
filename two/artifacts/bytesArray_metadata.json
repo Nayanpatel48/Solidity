@@ -6,14 +6,40 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "b1",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "getElement",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,32 +52,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "length",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "popElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
-					}
-				],
 				"name": "pushElement",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"two/dynamicArray.sol": "Array"
+			"two/byteArray2.sol": "bytesArray"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"two/dynamicArray.sol": {
-			"keccak256": "0x01f08835876d9f532a46325103af81086761dce1e08fad7e4604b006278df447",
+		"two/byteArray2.sol": {
+			"keccak256": "0x65432488b21943334f3a32ac0c272de6a51219a94da0c9551f7f706f886836c1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://32ced7be848f0234c99fd0a3c7c608c183bea4df1b0cbcfe72ba01faee48507a",
-				"dweb:/ipfs/Qme2AXUx9upTvcUEwoprhCVf2T7h71JcaiViq4YQ6tLkMM"
+				"bzz-raw://b18baa6e8dc5e48faeba8e37848edc4ea780e4724011d2f143b8f30e04f03465",
+				"dweb:/ipfs/QmWUTTJQvWdtYao9oDD6NqPE3YXWPLoscmyJdNz834hctW"
 			]
 		}
 	},

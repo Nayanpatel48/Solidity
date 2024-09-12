@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "b2",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes2",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes2"
 					}
 				],
 				"stateMutability": "view",
@@ -26,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "length",
+				"name": "b3",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes3",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes3"
 					}
 				],
 				"stateMutability": "view",
@@ -39,20 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "popElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
-					}
-				],
-				"name": "pushElement",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"two/dynamicArray.sol": "Array"
+			"two/byteArray1.sol": "byteArray"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"two/dynamicArray.sol": {
-			"keccak256": "0x01f08835876d9f532a46325103af81086761dce1e08fad7e4604b006278df447",
+		"two/byteArray1.sol": {
+			"keccak256": "0x9369505043334877bda38240fa135cb1e74e774d704739416e62e81b3d2a0014",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://32ced7be848f0234c99fd0a3c7c608c183bea4df1b0cbcfe72ba01faee48507a",
-				"dweb:/ipfs/Qme2AXUx9upTvcUEwoprhCVf2T7h71JcaiViq4YQ6tLkMM"
+				"bzz-raw://9bd13ffb4c34eb6a8aff11ce4520ce2f8122002de4c07b8df910c9ecc1f4babb",
+				"dweb:/ipfs/QmbWwcrTigtWJR7Kmy67uUVQvJQBW79351jxcLHGCq65mA"
 			]
 		}
 	},
