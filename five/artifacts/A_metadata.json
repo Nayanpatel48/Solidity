@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "f1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f4",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"five/visibility_in_solidity.sol": "A"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"five/visibility_in_solidity.sol": {
+			"keccak256": "0xc3897a0034efbf036e4345e72c7e281f924ced0eb07ac461728928016a605d4b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7311e2dc7bbe1f1b31c043a7f77da7dbe0bac0d790f32f6ce140feeb2e0addb4",
+				"dweb:/ipfs/QmUBemCSYsMYT36guM8HMbFQhaKYW2w6agdtUYcybZi6Vv"
+			]
+		}
+	},
+	"version": 1
+}
