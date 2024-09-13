@@ -6,24 +6,33 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newCount",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"inputs": [],
+				"name": "mem",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "count",
-				"outputs": [
+				"name": "storageT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -43,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"one/constructor.sol": "local"
+			"five/storage_memory.sol": "demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"one/constructor.sol": {
-			"keccak256": "0xf43725fa8179bed74620f1eb680d855f95061275b9af57e115e46bd184966fd8",
+		"five/storage_memory.sol": {
+			"keccak256": "0x6b7f274b3a56ba617b977ef2628f32f932287ba53f9bc517e3ad391b8e6d1cf9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3520c74c0da8c67a4220ed0d8e8b8b16e88dd858268dba03aee4f997c89553b4",
-				"dweb:/ipfs/QmQuLH3DoEB9JKmJhbqC2tadZoxYC9sK7JGMkqRcjS4sQ9"
+				"bzz-raw://973eb0430f80fc059cab237cb8d5934e985f4e01fb34d62ed0ff469e814cc0b5",
+				"dweb:/ipfs/QmeBo7jXNxAr8QBAfs3nKUSfJSn9gLZNyJKmFuU1ayPYtP"
 			]
 		}
 	},
