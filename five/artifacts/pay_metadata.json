@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"five/contract_balance.sol": "pay"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"five/contract_balance.sol": {
+			"keccak256": "0xa7d87ad30a26aea1aded109b1626e596a6f1876cde2fd84317efaf23694dc853",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e79b98f01cc0e70a7097df907ceed5bf30aa3371fce48be9885e5c5f3327abdd",
+				"dweb:/ipfs/QmVjjYcMTm4Y5ncWkRwnAn8sbr8ybQvY11nSEjVPkEhsWr"
+			]
+		}
+	},
+	"version": 1
+}
